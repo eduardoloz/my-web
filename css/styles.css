@@ -1,0 +1,80 @@
+/* Add your CSS styles for the navigation bar, content, and centered box here */
+/* Example styles with "DejaVu Sans Mono" font: */
+body {
+    font-family: "DejaVu Sans Mono", monospace;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid white;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+    background-color: white;
+    color: #333;
+}
+
+/* Add some space below the fixed navbar to prevent content from being hidden */
+body {
+    padding-top: 50px;
+}
+
+/* Styles for the centered text box */
+.centered-box {
+    height: 200px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+    background-color: #f0f0f0;
+    border: 2px solid #333;
+    border-radius: 10px;
+    
+}
+
+.centered-box p {
+    font-size: 18px;
+    text-align: center;
+    padding: 10px
+}
+
+/* Styles for the "home" section */
+#home {
+    width: 100%; /* Take up the full width */
+    background-color: #f0f0f0;
+    text-align: center;
+    justify-content: center; /* Center horizontally */
+    align-content: center;
+    padding: 50px 0;
+}
+
+#home h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}

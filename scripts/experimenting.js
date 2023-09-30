@@ -1,6 +1,7 @@
 function createNavigationBar() {
     const navBar = document.createElement("nav");
-    navBar.innerHTML = `
+    navBar.innerHTML = 
+    `
         <div class="nav-links">
             <a href="#home">Home</a>
             <a href="#projects">Projects</a>

@@ -23,9 +23,6 @@ navBar.insertBefore(navDiv, navBar.children[0]);
 var navItem, navLink;
 
 for (var i = 0; i < navItems.length; i++) {
-    console.log(i, navItems[i]);
-    // Create a fresh list item, and anchor
-    navItem = document.createElement("li");
     navLink = document.createElement("a");
 
     // Set properties on anchor
@@ -33,12 +30,11 @@ for (var i = 0; i < navItems.length; i++) {
     navLink.innerHTML = navItems[i].text;
 
     // Add anchor to list item, and list item to list
-    navItem.appendChild(navLink);
-    navDiv.appendChild(navItem);
+    navDiv.appendChild(navLink);
 }
 
 
-console.log("Did this render?");
+console.log(navDiv);
 
 // failed attempt 1
 

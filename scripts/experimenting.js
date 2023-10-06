@@ -32,24 +32,3 @@ for (var i = 0; i < navItems.length; i++) {
     // Add anchor to list item, and list item to list
     navDiv.appendChild(navLink);
 }
-
-
-console.log(navDiv);
-
-// failed attempt 1
-
-// function createNavigationBar() {
-//     const navBar = document.createElement("nav");
-//     navBar.innerHTML = 
-//     `
-//         <div class="nav-links">
-//             <a href="#home">Home</a>
-//             <a href="#projects">Projects</a>
-//             <a href="#about">About</a>
-//             <a href="#contact">Contact</a>
-//         </div>
-//     `;
-//     console.log("This is kinda working");
-// }
-
-// createNavigationBar()

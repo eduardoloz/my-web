@@ -13,8 +13,7 @@ navDiv.classList.add("nav-links");
 
 //get the nav element from the HTML
 const navBar = document.getElementById("navBar");
-console.log(navDiv)
-console.log(navBar)
+
 
 //insert our div after nav
 navBar.insertBefore(navDiv, navBar.children[0]);
@@ -32,3 +31,9 @@ for (var i = 0; i < navItems.length; i++) {
     // Add anchor to list item, and list item to list
     navDiv.appendChild(navLink);
 }
+
+// Testing code
+/*
+console.log(navDiv)
+console.log(navBar)
+*/

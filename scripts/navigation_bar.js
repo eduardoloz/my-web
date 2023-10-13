@@ -1,11 +1,11 @@
 
 // All items we'd like to add
 var navItems = [
-    {href: '/../pages/about.html', text: 'Home'},
-    {href: '/../index.html', text: 'Projects'},
-    {href: '/../pages/about.html', text: 'About'},
-    {href: '/../pages/contact.html', text: 'Contact'}
-];
+    {href: './about.html', text: 'Home'},
+    {href: './index.html', text: 'Projects'},
+    {href: './about.html', text: 'About'},
+    {href: './contact.html', text: 'Contact'}
+];                    
 
 // create our div to put the links in
 const navDiv = document.createElement("div");

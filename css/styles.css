@@ -76,6 +76,11 @@ body {
 }
 /* random comment to test some bash stuff*/
 #home h1 {
-    font-size: 36px;
+    font-size: 36px; 
     margin-bottom: 20px;
+}
+
+#me-img {
+    height: 300px;
+    width: auto;
 }

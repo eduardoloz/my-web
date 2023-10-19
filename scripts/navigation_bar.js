@@ -1,7 +1,7 @@
 
 // All items we'd like to add
 var navItems = [
-    {href: './home.html', text: 'Home'},
+    {href: './index.html', text: 'Home'},
     {href: './projects.html', text: 'Projects'},
     {href: './about.html', text: 'About'},
     {href: './contact.html', text: 'Contact'}

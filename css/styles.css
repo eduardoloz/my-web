@@ -66,6 +66,7 @@ body {
 
 /* Styles for the "home" section */
 #home {
+    position: fixed;
     width: 100%; /* Take up the full width */
     background-color: #f0f0f0;
     text-align: center;

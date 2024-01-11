@@ -1,0 +1,17 @@
+.page{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.project {
+    width: 100px;
+    border-radius: 10px;
+
+    background-color: rgba(225, 198, 153);
+    border-color: rgba(13,112,170,225);
+}
+
+.a:hover {
+    text-decoration: none;
+}

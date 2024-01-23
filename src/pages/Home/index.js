@@ -2,7 +2,7 @@ import "./index.css"
 
 const Home = () => {
   return(
-	<div className="home-page">
+	<div className="page">
 		<div className="section-1">
 			<br></br>
 			<br></br>

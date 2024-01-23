@@ -1,8 +1,9 @@
 import './ProjDisplay.css'
 
-const Project = (props) => {
-	const title = props.title;
-	const link = props.link;
+const Project = ({proj}) => {
+	const title = proj.title;
+	const link = proj.link;
+  const description = proj.description
 
   return (
     <div className='project'>

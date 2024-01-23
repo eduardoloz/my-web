@@ -1,13 +1,59 @@
-import { useState, useEffect } from 'react'
+// import { useState, useEffect } from 'react'
+import Project from "../components/ProjDisplay/Project.js"
+import { useState } from 'react';
+import './../components/ProjDisplay/ProjDisplay.css'
 
 const Projects = () => {
-	const [projs, setProjs] = useState(null);
+	const [projData, setProjData] = useState([
+		{
+			"id": 0, 
+			"title": "Brainfudge Visualizer",
+			"link": "https://github.com/Stuycs-K/final-project-4-leet-lozanoe",
+			"brief": "A visualizer made with p5 (js) for brainfuck, a programming language with just 8 operators (it's turing complete!).",
+			"description": "This project was made with the p5 framework in javascript and can be rendered locally as a website to the user after cloning the repo. The operations in brain fuck are meant to modify a singular pointer which move positions, increase the value of the one byte cells it's on (contains 0~255), printing, taking in input, and two operators for a really clever loop function). We include a visualizer for these cells as well as provide the basic interpreter for brainfuck to output. More can be found on github!",
+			"codevs": [
+					{
+						"name": "Tedd Lee",
+						"profile": "https://github.com/aGreenCat"
+					}
+				]
+		},
+		{
+			"id": 1,
+			"title": "Chat Room",
+			"link": "https://github.com/stuyvesant-cs/project-iiits-the-final-project-4-mizhen-serbanescu-lozano",
+			"brief": "A chat box made in C that users can join that renders in their terminal",
+			"description": "We created a multiplayer chat that used pipe networking, sockets, and forking in C to run a chat. We will have a main server host the chat (this is the main UI everyone sees) and then everyone logs in using their terminal and every person who connects will have their own local UI. Our project used structs and a file as a buffer for messages (not the safest for encryption, could actual encryption could be a reach goal). More can be found on github!",
+			"codevs": [
+					{
+						"name": "Aiden Mizhen",
+						"profile": "https://github.com/amizhen"
+					},
+					{
+						"name": "Paul Serbanescu",
+						"profile": "https://github.com/pserb"
+					}
+				]
+		}]);
+	
+	console.log(projData);
+	console.log(projData[0]);
+	// const [projs, setProjs] = useState(null);
+	// useEffect(() => {
+	// 	url = 
+	// 	fectc
+	// 	console.log('Your mother');
+	// },[]);
 
-	useEffect(() => {
-		console.log('Your mother');
-	},[]);
-
-	return <h1>Projects</h1>;
+	
+	return (
+		<div className="page">
+			<h1>Projects</h1>
+			<div className="proj-page">
+				<Project proj={projData[0]}/>
+				<Project proj={projData[1]}/>
+			</div>
+		</div>
+	);
 }
-
 export default Projects

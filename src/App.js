@@ -1,11 +1,11 @@
 import { Component } from 'react'
 import {  BrowserRouter as Router,  Routes,  Route} from "react-router-dom";
 
+
 import Navbar from './components/Navbar/Navbar.js'
 import Home from './pages/Home/index.js'
-import Projects from './pages/Projects.js'
-import Contact from './pages/contact.js'
-
+import Projects from './pages/Project.js'
+import Contact from './pages/Contact.js'
 
 //Note routes is outdated
 

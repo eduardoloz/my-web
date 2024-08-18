@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import NavBar from "./components/Nav"; // Ensure the import path is correct
+import Nav from "./components/Nav"; // Ensure the import path is correct
 import Home from "./pages/Home"; // Ensure the import path is correct
 import Projects from "./pages/Projects"; // Ensure the import path is correct
 import ProjectDetails from "./pages/ProjectDetails"; // Ensure the import path is correct
@@ -11,7 +11,7 @@ import "./App.css";
 function App() {
   return (
     <BrowserRouter>
-      <NavBar />
+      <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />

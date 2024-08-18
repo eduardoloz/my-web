@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
-const NavBar = () => {
+const Nav = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
@@ -88,4 +88,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default Nav;

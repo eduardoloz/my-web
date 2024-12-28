@@ -1,41 +1,6 @@
 import React from 'react';
 import Project from '../components/Project'; // Ensure the import path is correct
-
-const projects = [
-  {
-    id: 1,
-    title: "Pulley Simulator",
-    author: "Tedd Lee and Eduardo Lozano",
-    description: "A simulation of massive pulleys. Done for Physics C final project.",
-    technologies: ["Python", "WebPython"],
-    image: "/path/to/project-image1.png" // Adjust the path as necessary
-  },
-  {
-    id: 2,
-    title: "BrainFudge",
-    author: "Tedd Lee and Eduardo Lozano",
-    description: "A BrainFudge interpreter made with Processing, a java library.",
-    technologies: ["Java", "p5", "Processing", "BrainFudge"],
-    image: "/path/to/project-image2.png" // Adjust the path as necessary
-  },
-  // Add more projects as needed
-  {
-    id: 3,
-    title: "HopperDreams",
-    author: "Eduardo Lozano, Samuel Buena, Jerry Lin, and Lee Einsenburg",
-    description: "Hackathon project configured with React and uses MongoDB for storing user information",
-    technologies: ["Node.js", "React", "MongoDB"],
-    image: "/path/to/project-image2.png" // Adjust the path as necessary
-  },
-  {
-    id: 4,
-    title: "HopperDreams",
-    author: "Eduardo Lozano, Samuel Buena, Jerry Lin, and Lee Einsenburg",
-    description: "Hackathon project configured with React and uses MongoDB for storing user information",
-    technologies: ["Node.js", "React", "MongoDB"],
-    image: "/path/to/project-image2.png" // Adjust the path as necessary
-  },
-];
+import projects from '../data/projects.json'; // Ensure the import path is correct
 
 const Projects: React.FC = () => {
   return (

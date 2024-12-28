@@ -6,14 +6,27 @@ const About: React.FC = () => {
       <div className="max-w-4xl mx-auto">
         <h1 className="text-3xl md:text-4xl font-bold mb-6">About Me</h1>
         <p className="text-lg md:text-xl">
-          I am a rising sophomore at Stony Brook University studying Computer Science and Applied Mathematics and Statistics. I'm a Simons Stem Scholar and aspiring scientist.
-          <br /><br />
-          I have a current interest in machine learning and systems, and I'm looking forward to being a part of an undergraduate lab. I am an avid Hackathon attendee as well as a key member of the undergraduate Computer Science community with my contributions to clubs and workshops.
-          <br /><br />
-          Over the summer I will be joining CMU's REUSE program to do robust systems programming where I will be working alongside Dr. Eunsuk Kang on advancing modeling techniques with TLA+/Alloy programming and Java threading.
-          <br /><br />
-          I am not just a member of the cs Community, but trust me I am human after all! I have a love for singing, having joined the High C's TTBB acapella group at Stony Brook I have joined an awesome singing group where I can just have fun and wind down after my classes. Additionally, 
-          my friends and I also have fun playing poker with each other, and I have been known to be a bit of a card shark (jk).
+        I am a rising sophomore at Stony Brook University studying Computer Science and Applied Mathematics and Statistics. I'm a Simons Stem Scholar and aspiring scientist. I plan on doing a BS/MS
+        <br></br><br></br>
+        I have a current interest in machine learning and formal methods, and I'm looking forward to being a part of an undergraduate lab. I am an avid Hackathon attendee as well as a key member of the undergraduate Computer Science community with my contributions to clubs and workshops. However, I am 0-4 in my hackathons :(
+          <br></br><br></br>
+
+        Over the summer I joined CMU's REUSE program to do robust systems programming where I will be working alongside Ian Dardik to use Java to run model checking in parallel and work on recomp-verify. Currently, I have scratched all previous work and did the parallelization with Python.
+        <br></br><br></br>
+
+        I am not just a member of the CS Community, but trust me I am human after all! I have a love for singing, as I have joined the High C's, TTBB acapella group, at Stony Brook.
+        <br></br><br></br>
+
+        I am an avid gambler with my recreational hobby of opening booster packs in pokemon and my investing in ETFs. I also play poker but I’m currently on a downsing (I blame variance).
+        <br></br>
+
+        If you’ve made it this far, I hope you learned a little about me but feel free to contact me at:
+        <br></br><br></br>
+
+        Discord: @eduardoloz
+        <br></br>
+
+        Email: eduardolozanoacademics@gmail.com
         </p>
       </div>
     </div>

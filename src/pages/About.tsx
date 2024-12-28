@@ -17,7 +17,7 @@ const About: React.FC = () => {
         I am not just a member of the CS Community, but trust me I am human after all! I have a love for singing, as I have joined the High C's, TTBB acapella group, at Stony Brook.
         <br></br><br></br>
 
-        I am an avid gambler with my recreational hobby of opening booster packs in pokemon and my investing in ETFs. I also play poker but I’m currently on a downsing (I blame variance).
+        I am an avid gambler with my recreational hobby of opening booster packs in pokemon and my investing in ETFs. I also play poker but I’m currently on a downswing (I blame variance).
         <br></br>
 
         If you’ve made it this far, I hope you learned a little about me but feel free to contact me at:

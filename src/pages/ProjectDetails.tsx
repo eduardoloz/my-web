@@ -1,20 +1,14 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-
-interface ProjectDetailsParams {
-  id: string;
-}
+import projects from '../data/projects.json'; // Ensure the import path is correct
 
 const ProjectDetails: React.FC = () => {
   const { id } = useParams<{ id: string }>();
-  // Fetch the project details using the ID or use static data for now
-  const project = {
-    title: `Project ${id}`,
-    author: "Eduardo Lozano",
-    description: `Description of Project ${id}. This project involves...`,
-    technologies: ["React", "Tailwind CSS", "JavaScript"],
-    image: `/path/to/project-image${id}.png` // Adjust the path as necessary
-  };
+  const project = projects.find((project) => project.id.toString() === id);
+
+  if (!project) {
+    return <div>Project not found</div>;
+  }
 
   return (
     <div className="pt-20">

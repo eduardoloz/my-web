@@ -5,7 +5,7 @@
       "author": "Tedd Lee and Eduardo Lozano",
       "description": "A simulation of massive pulleys. Done for Physics C final project.",
       "technologies": ["Python", "WebPython"],
-      "image": "/path/to/project-image1.png"
+      "image": "/PulleySimulator.png"
     },
     {
       "id": 2,
@@ -13,22 +13,30 @@
       "author": "Tedd Lee and Eduardo Lozano",
       "description": "A BrainFudge interpreter made with Processing, a java library.",
       "technologies": ["Java", "p5", "Processing", "BrainFudge"],
-      "image": "/path/to/project-image2.png"
+      "image": "/BrainFudge.png"
     },
     {
       "id": 3,
       "title": "HopperDreams",
       "author": "Eduardo Lozano, Samuel Buena, Jerry Lin, and Lee Einsenburg",
-      "description": "Hackathon project configured with React and uses MongoDB for storing user information",
+      "description": "Dating app for programmers. Tailored for WiCS's Hopper Hacks IX",
       "technologies": ["Node.js", "React", "MongoDB"],
-      "image": "/path/to/project-image2.png"
+      "image": "/HopperDreams.png"
     },
     {
       "id": 4,
-      "title": "HopperDreams",
-      "author": "Eduardo Lozano, Samuel Buena, Jerry Lin, and Lee Einsenburg",
-      "description": "Hackathon project configured with React and uses MongoDB for storing user information",
-      "technologies": ["Node.js", "React", "MongoDB"],
+      "title": "VolunTip",
+      "author": "2024 SBU Hacks Group",
+      "description": "Mobile app for matching volunteers with organizations made for SBU Hacks XIII",
+      "technologies": ["Node.js", "React-Native", "MongoDB"],
+      "image": "/VolunTip.png"
+    },
+    {
+      "id": 5,
+      "title": "2024 CMU REUSE poster",
+      "author": "2024 SBU Hacks Group",
+      "description": "My poster from my work over the summer in Pittsburgh",
+      "technologies": ["Node.js", "React-Native", "MongoDB"],
       "image": "/path/to/project-image2.png"
     }
   ]

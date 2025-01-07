@@ -59,11 +59,11 @@
       "id": 6,
       "date": "2024-10",
       "title": "Parkara",
-      "author": "2024 Hack Harvard Group",
-      "description": "Mobile app leveraging Google Maps API to help users find parking locations",
+      "author": "Alexander Joukov, Eduardo Lozano, and Samuel Buena",
+      "description": " App leveraging Google Maps API to help users find parking locations.",
       "technologies": ["Google Maps API", "React", "Node.js", "MongoDB"],
       "image": "/Parkara.png",
-      "demo" : "https://devpost.com/software/voluntip",
+      "demo" : "https://www.youtube.com/embed/5_nCYMZ70_w?si=HYMAIlD1Hfig2Od-",
       "source-code" : "https://github.com/Ajoukov/Parkara"
     }
   ]

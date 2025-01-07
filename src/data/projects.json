@@ -36,6 +36,7 @@
     },
     {
       "id": 4,
+      "date": "2024-03",
       "title": "VolunTip",
       "author": "2024 SBU Hacks Group",
       "description": "Mobile app for matching volunteers with organizations made for SBU Hacks XIII",
@@ -46,11 +47,24 @@
     },
     {
       "id": 5,
+      "date": "2024-08",
       "title": "2024 CMU REUSE poster",
       "author": "2024 SBU Hacks Group",
       "description": "My poster from my work over the summer in Pittsburgh",
       "technologies": ["Java", "TLA+", "Python"],
-      "image": "/ReusePoster.pdf"
+      "image": "/ReusePoster.pdf",
+      "source-code": "https://github.com/cmu-soda/recomp-verify/tree/threading"
+    }
+    ,{
+      "id": 6,
+      "date": "2024-10",
+      "title": "Parkara",
+      "author": "2024 Hack Harvard Group",
+      "description": "Mobile app leveraging Google Maps API to help users find parking locations",
+      "technologies": ["Google Maps API", "React", "Node.js", "MongoDB"],
+      "image": "/Parkara.png",
+      "demo" : "https://devpost.com/software/voluntip",
+      "source-code" : "https://github.com/Ajoukov/Parkara"
     }
   ]
   

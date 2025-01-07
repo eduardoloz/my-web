@@ -1,27 +1,38 @@
 [
     {
       "id": 1,
+      "date": "2023-06",
       "title": "Pulley Simulator",
       "author": "Tedd Lee and Eduardo Lozano",
       "description": "A simulation of massive pulleys. Done for Physics C final project.",
+      "long-description": "The simulation is done in GlowScript, a Python library that allows for 3D graphics. The simulation is a 3D representation of a massive pulley system with mass on ends of a string. There are four pre built configurations with static and nonstatic pulleys (where they have translational movement as well). Users can change the masses attached at the end as well as see graphs of velocity and displacement. This was one of the most fun projects I've worked on.",
       "technologies": ["Python", "WebPython"],
-      "image": "/PulleySimulator.png"
+      "image": "/PulleySimulator.png",
+      "demo" : "https://www.glowscript.org/#/user/tedduardoo/folder/MyPrograms/program/PulleySimulator-Final",
+      "source-code": "https://www.glowscript.org/#/user/tedduardoo/folder/MyPrograms/program/PulleySimulator-Final/edit"
     },
     {
       "id": 2,
+      "date": "2023-06",
       "title": "BrainFudge",
       "author": "Tedd Lee and Eduardo Lozano",
       "description": "A BrainFudge interpreter made with Processing, a java library.",
+      "long-description": "BrainFudge is a derivative of BrainF***, a minimalist esoteric programming language. Brainfuck is Turing complete! The interpreter is made with Processing, a Java library. The program reads BrainFudge code and interprets it.",
       "technologies": ["Java", "p5", "Processing", "BrainFudge"],
-      "image": "/BrainFudge.png"
+      "image": "/BrainFudge.png",
+      "demo" : "",
+      "source-code": "https://github.com/eduardoloz/BrainFudge"
     },
     {
       "id": 3,
+      "date": "2024-02", 
       "title": "HopperDreams",
       "author": "Eduardo Lozano, Samuel Buena, Jerry Lin, and Lee Einsenburg",
       "description": "Dating app for programmers. Tailored for WiCS's Hopper Hacks IX",
       "technologies": ["Node.js", "React", "MongoDB"],
-      "image": "/HopperDreams.png"
+      "image": "/HopperDreams.png",
+      "demo" : "https://www.youtube.com/embed/qDs3GwgmTa0?si=X3vqHRyMdJ7xxD-H",
+      "source-code": "https://github.com/eduardoloz/hopperhacks2024"
     },
     {
       "id": 4,
@@ -29,14 +40,16 @@
       "author": "2024 SBU Hacks Group",
       "description": "Mobile app for matching volunteers with organizations made for SBU Hacks XIII",
       "technologies": ["Node.js", "React-Native", "MongoDB"],
-      "image": "/VolunTip.png"
+      "image": "/VolunTip.png",
+      "demo" : "https://devpost.com/software/voluntip",
+      "source-code" : "https://github.com/eduardoloz/sbuhacks2024s"
     },
     {
       "id": 5,
       "title": "2024 CMU REUSE poster",
       "author": "2024 SBU Hacks Group",
       "description": "My poster from my work over the summer in Pittsburgh",
-      "technologies": ["Node.js", "React-Native", "MongoDB"],
+      "technologies": ["Java", "TLA+", "Python"],
       "image": "/path/to/project-image2.png"
     }
   ]

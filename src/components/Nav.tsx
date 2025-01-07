@@ -8,11 +8,12 @@ const Nav = () => {
     <nav className="bg-sky-100 shadow-lg fixed w-full z-10">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between items-center py-6">
+          {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-10">
             <a href="/Home" className="text-xl text-sky-950 hover:text-sky-700 ml-2">
               Home
             </a>
-            <a href="#" className="text-xl text-sky-950 hover:text-sky-700">
+            <a href="/blog" className="text-xl text-sky-950 hover:text-sky-700">
               Blog
             </a>
             <a href="/Projects" className="text-xl text-sky-950 hover:text-sky-700">
@@ -21,11 +22,13 @@ const Nav = () => {
             <a href="/About" className="text-xl text-sky-950 hover:text-sky-700">
               About
             </a>
-            <a href="#" className="text-xl text-sky-950 hover:text-sky-700">
+            {/* Smooth scroll to Contact Section */}
+            <a href="/About#contact" className="text-xl text-sky-950 hover:text-sky-700">
               Contact
             </a>
           </div>
 
+          {/* Mobile Menu Button */}
           <div className="md:hidden flex items-center">
             <button
               onClick={() => setMenuOpen(!menuOpen)}
@@ -47,6 +50,8 @@ const Nav = () => {
               </svg>
             </button>
           </div>
+
+          {/* Social Links */}
           <div className="flex items-center space-x-4">
             <a
               href="https://linkedin.com/in/eduardo-s-lozano"
@@ -67,11 +72,13 @@ const Nav = () => {
           </div>
         </div>
       </div>
+
+      {/* Mobile Navigation */}
       <div className={`md:hidden ${menuOpen ? "block" : "hidden"}`}>
         <a href="/Home" className="block py-2 px-4 text-lg hover:bg-gray-200">
           Home
         </a>
-        <a href="#" className="block py-2 px-4 text-lg hover:bg-gray-200">
+        <a href="/blog" className="block py-2 px-4 text-lg hover:bg-gray-200">
           Blog
         </a>
         <a href="/Projects" className="block py-2 px-4 text-lg hover:bg-gray-200">
@@ -80,7 +87,8 @@ const Nav = () => {
         <a href="/About" className="block py-2 px-4 text-lg hover:bg-gray-200">
           About
         </a>
-        <a href="#" className="block py-2 px-4 text-lg hover:bg-gray-200">
+        {/* Smooth scroll to Contact Section */}
+        <a href="/About#contact" className="block py-2 px-4 text-lg hover:bg-gray-200">
           Contact
         </a>
       </div>

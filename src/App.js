@@ -5,6 +5,7 @@ import Home from "./pages/Home"; // Ensure the import path is correct
 import Projects from "./pages/Projects"; // Ensure the import path is correct
 import ProjectDetails from "./pages/ProjectDetails"; // Ensure the import path is correct
 import About from "./pages/About"; // Ensure the import path is correct
+import Blog from "./pages/Blog"; // Ensure the import path is correct
 
 import "./App.css";
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/education" element={<Home />} />
         <Route path="/experience" element={<Home />} />
         <Route path="/About" element={<About />} />
+        <Route path="/blog" element={<Blog />} />
       </Routes>
     </BrowserRouter>
   );

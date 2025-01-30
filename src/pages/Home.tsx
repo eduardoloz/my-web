@@ -20,7 +20,7 @@ const Home = () => {
               className="w-full max-w-xs lg:max-w-md object-cover rounded-lg"
             />
             <figcaption className="text-center mt-2 text-sm text-gray-500">
-              spider man is also from queens (just like me)
+              spider man is from queens (just like me)
             </figcaption>
           </figure>
         </div>

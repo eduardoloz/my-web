@@ -8,7 +8,7 @@ const ProjectPage: React.FC = () => {
 
   <div className="container mx-auto flex flex-col gap-12 mt-14 px-4">
           <p className="text-lg md:text-xl lg:text-2xl text-center lg:text-left mb-6">
-      Here are some of the projects I have worked on:
+      Here are some of the projects I have worked on: Click on a project to see more details!
       </p>
     {Object.entries(
       projects.reduce((acc, project) => {

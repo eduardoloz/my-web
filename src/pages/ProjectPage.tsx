@@ -2,7 +2,7 @@ import React from 'react';
 import Project from '../components/Project'; // Ensure the import path is correct
 import projects from '../data/projects.json'; // Ensure the import path is correct
 
-const Projects: React.FC = () => {
+const ProjectPage: React.FC = () => {
   return (
     <div className="pt-20">
 
@@ -47,4 +47,4 @@ const Projects: React.FC = () => {
   );
 };
 
-export default Projects;
+export default ProjectPage;

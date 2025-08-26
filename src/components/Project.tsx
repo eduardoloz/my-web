@@ -24,9 +24,8 @@ const Project: React.FC<ProjectProps> = ({ id, title, author, description, techn
   return (
     <div
       onClick={handleClick}
-      className={`flex flex-col lg:flex-row  lg:items-start lg:space-x-6 mb-8 p-4 cursor-pointer transition-all duration-300 ease-in-out 
-      ${clicked ? 'bg-blue-200 rounded-lg' : 'bg-white'} ${clicked ? 'border-radius' : ''}`}
-      style={{ borderRadius: clicked ? '16px' : '4px' }}
+      className={`flex flex-col lg:flex-row lg:items-start lg:space-x-6 mb-8 p-4 cursor-pointer transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl hover:bg-blue-50 border border-gray-200 hover:border-blue-300
+        ${clicked ? 'bg-blue-200 rounded-lg shadow-lg' : 'bg-white rounded-lg shadow-md'}`}
     >
       {image && <img src={image} alt={`${title} Image`} className="w-32 h-32 lg:w-48 lg:h-48 mb-4 lg:mb-0" />}
       <div>

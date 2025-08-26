@@ -44,6 +44,9 @@
       "last 1 safari version"
     ]
   },
+  "overrides": {
+    "typescript": "^5.9.2"
+  },
   "devDependencies": {
     "@types/node": "^24.3.0",
     "@types/react": "^19.1.11",

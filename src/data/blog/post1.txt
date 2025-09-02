@@ -1,0 +1,28 @@
+# Poker - An Infrastructure for Life
+
+Welcome to my first blog post of just unfiltered Eduardo’s thoughts!
+
+I’ve always loved board games. With family and friends some of my favorite board games have been checkers, chess, chess variations, Catan, variations of Catan, Risk, Exploding Kittens, Unstable Unicorns, variations of Risk, Pokemon
+
+1. Nondeterministic Game
+In games such as [Risk](https://instructions.hasbro.com/api/download/B7404_en-us_Risk-Game.pdf) or [Poker]https://bicyclecards.com/how-to-play/basics-of-poker), results of hands/battles are due to chance. However, in these games unlike slots or coin flips, players have agency in decisions. However, in a game such as poker, although game theory optimal (GTO) exists in a heads up format (1 on 1), the game gets much more complicated. In chess there are objectively good and bad plays and in poker it’s slightly more nuanced because of this idea in GTO that you’re meant to do something a percentage of the time. The probability/chance is super appealing because you as a player have the agency to determine your outcome.
+
+2. Decisions
+Poker unlike the casino, the stock market, or options, is a strategy decision-making game against other players. Even though computers can play GTO headsup, taking advantage of information such as a player showing nerves - this isn’t something I think AI is able to fully take advantage of yet (maybe because the data doesn’t exist?)
+
+Even in a game like Risk, there's public information on the board such as the number of troops or bonus cards a player has. However, there exists uncertainties in the roll of dice and a player’s strategy which is locked behind the vault of their minds. Although a player could have a better objective strategy in the continent they want to conquer for the bonus soldiers, one of my favorite part of the board game is the need to adapt to when luck isn’t on your side.
+
+And the quote from Napoleon says a lot about this, “I’d rather have a lucky general than good generals” and it goes back to this uncertainty. True skill in these board games is being lucky even when the dice aren’t being your friend.
+
+It is very human to take risks and make decisions. Decision making is vital in our lives and everyday when we choose to hangout with friends, study for our classes, call our family members or continue professional relationships. We make lots of decisions in who we choose to surround ourselves with. Even when we're in an unknown environment, we’re still making decisions.
+
+3. Culture
+Lots of phrases such as “raise the ante”, “all in” derive from poker. I’m not sure of the cultural applications but many facets in life can be seen as some form of managing risk. In my life, I can live scared - fold all my hands and lose blinds or I can bluff, take a risk, and get higher payouts. Or even if I don’t have a bluff, I need to be aggressive and raise in order to get a higher payout. A baby that doesn’t cry won’t get fed!
+
+But yes poker is fun for math and counting as it’s inherently probabilistic but it’s also fun in understanding our innate psychology and play style. Additionally, there’s much value in understanding other winning strategies and applying it to our own….
+
+
+4. Fear
+Playing poker under influence or when you’re too emotional, at least for me results in loss. My first time at the casino I had over $1000 in front of me from an initial buy in of $200. At some point, strangers at the table realized before I did, that I was scared and from my raise from $3 -> $9, I would get raised to 60$. Even with hands like A,10, I was scared of losing more than I had ever played for a table. After losing some blinds I decided to cut my losses and just leave while still 250% profit.
+
+

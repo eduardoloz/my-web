@@ -1,37 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import postsData from '../data/blog/posts.json';
 
 export default function BlogPost() {
     const { id } = useParams<{ id: string }>();
-    const [content, setContent] = useState<string>('');
-    const [loading, setLoading] = useState(true);
-    
     const post = postsData.find(p => p.id === id);
-
-    useEffect(() => {
-        if (post) {
-            import(`../data/blog/${post.fileName}?raw`)
-                .then(module => {
-                    setContent(module.default);
-                    setLoading(false);
-                })
-                .catch(error => {
-                    console.error('Error loading blog post:', error);
-                    setLoading(false);
-                });
-        } else {
-            setLoading(false);
-        }
-    }, [post]);
-
-    if (loading) {
-        return (
-            <div style={{ padding: '5rem 1rem 1rem 1rem' }}>
-                <div>Loading...</div>
-            </div>
-        );
-    }
 
     if (!post) {
         return (
@@ -99,7 +72,7 @@ export default function BlogPost() {
                         <p style={{ color: '#666', fontSize: '1rem' }}>{post.date}</p>
                     </header>
                     <div style={{ fontSize: '1.1rem', lineHeight: '1.7' }}>
-                        {renderMarkdown(content)}
+                        {renderMarkdown(post.content)}
                     </div>
                 </article>
             </div>

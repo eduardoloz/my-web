@@ -14,10 +14,10 @@
       // Note: this 404.html file must be at least 512 bytes for it to work
       // with Internet Explorer (it is currently > 512 bytes)
 
-      // pathSegmentsToKeep is 0 because this site deploys to the Pages
-      // root (package.json "homepage": "eduardoloz.github.io"), not a
-      // /reponame/ project subpath.
-      var pathSegmentsToKeep = 0;
+      // pathSegmentsToKeep is 1 because this site deploys as a GitHub
+      // Pages project page at eduardoloz.github.io/my-web/, so the
+      // "/my-web" segment must be preserved on redirect.
+      var pathSegmentsToKeep = 1;
 
       var l = window.location;
       l.replace(

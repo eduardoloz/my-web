@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- tractor beam -->
+  <polygon points="24,40 40,40 50,62 14,62" fill="#a5f3fc" opacity="0.55"/>
+  <!-- glass dome -->
+  <path d="M20 30 a12 12 0 0 1 24 0 z" fill="#bae6fd" stroke="#0ea5e9" stroke-width="2"/>
+  <!-- cute alien peeking out of the dome -->
+  <circle cx="32" cy="24" r="6" fill="#86efac"/>
+  <circle cx="30" cy="23" r="1.3" fill="#14532d"/>
+  <circle cx="34" cy="23" r="1.3" fill="#14532d"/>
+  <path d="M30 26.5 q2 1.8 4 0" stroke="#14532d" stroke-width="1" fill="none" stroke-linecap="round"/>
+  <!-- saucer body -->
+  <ellipse cx="32" cy="34" rx="26" ry="9" fill="#94a3b8" stroke="#475569" stroke-width="2"/>
+  <ellipse cx="32" cy="31.5" rx="18" ry="5" fill="#cbd5e1"/>
+  <!-- blinky lights -->
+  <circle cx="14" cy="36" r="2.2" fill="#fde047"/>
+  <circle cx="23" cy="38.5" r="2.2" fill="#f472b6"/>
+  <circle cx="32" cy="39.5" r="2.2" fill="#fde047"/>
+  <circle cx="41" cy="38.5" r="2.2" fill="#f472b6"/>
+  <circle cx="50" cy="36" r="2.2" fill="#fde047"/>
+</svg>

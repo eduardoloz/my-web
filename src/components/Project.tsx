@@ -27,7 +27,7 @@ const Project: React.FC<ProjectProps> = ({ id, title, author, description, techn
       className={`flex flex-col lg:flex-row lg:items-start lg:space-x-6 mb-8 p-4 cursor-pointer transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl hover:bg-blue-50 border border-gray-200 hover:border-blue-300
         ${clicked ? 'bg-blue-200 rounded-lg shadow-lg' : 'bg-white rounded-lg shadow-md'}`}
     >
-      {image && <img src={image} alt={`${title} Image`} className="w-32 h-32 lg:w-48 lg:h-48 mb-4 lg:mb-0" />}
+      {image && <img src={image} alt={title} className="w-32 h-32 lg:w-48 lg:h-48 mb-4 lg:mb-0" />}
       <div>
         <h2 className="text-2xl lg:text-3xl font-bold">{title}</h2>
         <h3 className="text-md lg:text-lg text-gray-700">by {author}</h3>

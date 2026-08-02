@@ -47,7 +47,7 @@ const ProjectDetails: React.FC = () => {
         ) : (
           <img
             src={project.image}
-            alt={`${project.title} Image`}
+            alt={project.title}
             className="w-full lg:w-5/8 h-80 object-contain mb-6"
           />
         )}

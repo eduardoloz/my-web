@@ -65,6 +65,38 @@
       "image": "/Parkara.png",
       "demo" : "https://www.youtube.com/embed/5_nCYMZ70_w?si=HYMAIlD1Hfig2Od-",
       "source-code" : "https://github.com/Ajoukov/Parkara"
+    },
+    {
+      "id": 7,
+      "date": "2025",
+      "title": "SBCS Course Planner",
+      "author": "Eduardo Lozano",
+      "description": "Class planner for Stony Brook CS students, live at courses.sbcs.io.",
+      "long-description": "Used as the sample project for two instances of SBCS's Project Quack.",
+      "technologies": ["React", "TypeScript", "Python", "PostgreSQL"],
+      "image": "/CoursePlanner.png",
+      "images": ["/CoursePlanner.png", "/CoursePlannerGroup.jpg"],
+      "demo": "https://courses.sbcs.io/",
+      "source-code": "https://github.com/eduardoloz/bulletin-website"
+    },
+    {
+      "id": 8,
+      "date": "2026",
+      "title": "Agentic AI Minecraft",
+      "author": "Eduardo Lozano",
+      "description": "LLM agents that play Minecraft, built on the Odyssey framework for Hopper Hacks 2026.",
+      "technologies": ["Python", "JavaScript", "LLM Agents", "Minecraft"],
+      "source-code": "https://github.com/eduardoloz/minecraft-agents"
+    },
+    {
+      "id": 9,
+      "date": "2026",
+      "title": "2026 Smart Cities REU",
+      "author": "Eduardo Lozano",
+      "description": "Summer research at UNLV: transfer-learning object detection (YOLO, RT-DETR) for autonomous power-line inspection.",
+      "technologies": ["Python", "PyTorch", "YOLO", "RT-DETR"],
+      "image": "/atli_fig_perclass_ap.png",
+      "images": ["/atli_fig_perclass_ap.png", "/atli_fig_map_by_condition.png", "/atli_fig_blur_robustness.png", "/atli_edge_deploy.png"],
+      "source-code": "https://github.com/eduardoloz/atli-inspection"
     }
   ]
-  

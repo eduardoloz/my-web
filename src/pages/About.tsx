@@ -18,11 +18,8 @@ const About: React.FC = () => {
         </p>
         {/* Contact Section */}
         <div id="contact" className="mt-12">
-          <h1 className="text-3xl md:text-4xl font-bold mb-4">Contact Me!</h1>
           <p className="text-lg md:text-xl">
-            Discord: @eduardoloz
-            <br />
-            Email: eduardolozanoacademics@gmail.com
+            I'm Eduardo, aspiring researcher with VLMs and AI/ML.
           </p>
         </div>
       </div>

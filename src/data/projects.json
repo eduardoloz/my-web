@@ -7,7 +7,7 @@
       "description": "A simulation of massive pulleys. Done for Physics C final project.",
       "long-description": "The simulation is done in GlowScript, a Python library that allows for 3D graphics. The simulation is a 3D representation of a massive pulley system with mass on ends of a string. There are four pre built configurations with static and nonstatic pulleys (where they have translational movement as well). Users can change the masses attached at the end as well as see graphs of velocity and displacement. This was one of the most fun projects I've worked on.",
       "technologies": ["Python", "WebPython"],
-      "image": "/PulleySimulator.png",
+      "image": "/media/1%20-%20Pulley%20Simulator/PulleySimulator.png",
       "demo" : "https://www.glowscript.org/#/user/tedduardoo/folder/MyPrograms/program/PulleySimulator-Final",
       "source-code": "https://www.glowscript.org/#/user/tedduardoo/folder/MyPrograms/program/PulleySimulator-Final/edit"
     },
@@ -19,7 +19,7 @@
       "description": "A BrainFudge interpreter made with Processing, a java library.",
       "long-description": "BrainFudge is a derivative of BrainF***, a minimalist esoteric programming language. Brainfuck is Turing complete! The interpreter is made with Processing, a Java library. The program reads BrainFudge code and interprets it.",
       "technologies": ["Java", "p5", "Processing", "BrainFudge"],
-      "image": "/BrainFudge.png",
+      "image": "/media/2%20-%20BrainFudge/BrainFudge.png",
       "demo" : "",
       "source-code": "https://github.com/eduardoloz/BrainFudge"
     },
@@ -30,7 +30,7 @@
       "author": "Eduardo Lozano, Samuel Buena, Jerry Lin, and Lee Einsenburg",
       "description": "Dating app for programmers. Tailored for WiCS's Hopper Hacks IX",
       "technologies": ["Node.js", "React", "MongoDB"],
-      "image": "/HopperDreams.png",
+      "image": "/media/3%20-%20HopperDreams/HopperDreams.png",
       "demo" : "https://www.youtube.com/embed/qDs3GwgmTa0?si=X3vqHRyMdJ7xxD-H",
       "source-code": "https://github.com/eduardoloz/hopperhacks2024"
     },
@@ -41,7 +41,7 @@
       "author": "2024 SBU Hacks Group",
       "description": "Mobile app for matching volunteers with organizations made for SBU Hacks XIII",
       "technologies": ["Node.js", "React-Native", "MongoDB"],
-      "image": "/VolunTip.png",
+      "image": "/media/4%20-%20VolunTip/VolunTip.png",
       "demo" : "https://devpost.com/software/voluntip",
       "source-code" : "https://github.com/eduardoloz/sbuhacks2024"
     },
@@ -52,7 +52,7 @@
       "author": "2024 SBU Hacks Group",
       "description": "My poster from my work over the summer in Pittsburgh",
       "technologies": ["Java", "TLA+", "Python"],
-      "image": "/ReusePoster.pdf",
+      "image": "/media/5%20-%202024%20CMU%20REUSE%20poster/ReusePoster.pdf",
       "source-code": "https://github.com/cmu-soda/recomp-verify/tree/threading"
     }
     ,{
@@ -62,7 +62,7 @@
       "author": "Alexander Joukov, Eduardo Lozano, and Samuel Buena",
       "description": " App leveraging Google Maps API to help users find parking locations.",
       "technologies": ["Google Maps API", "React", "Node.js", "MongoDB"],
-      "image": "/Parkara.png",
+      "image": "/media/6%20-%20Parkara/Parkara.png",
       "demo" : "https://www.youtube.com/embed/5_nCYMZ70_w?si=HYMAIlD1Hfig2Od-",
       "source-code" : "https://github.com/Ajoukov/Parkara"
     },
@@ -74,8 +74,16 @@
       "description": "Class planner for Stony Brook CS students, live at courses.sbcs.io.",
       "long-description": "Used as the sample project for two instances of SBCS's Project Quack.",
       "technologies": ["React", "TypeScript", "Python", "PostgreSQL"],
-      "image": "/CoursePlanner.png",
-      "images": ["/CoursePlanner.png", "/CoursePlannerGroup.jpg"],
+      "image": "/media/7%20-%20SBCS%20Course%20Planner/CoursePlanner.png",
+      "images": [
+        { "src": "/media/7%20-%20SBCS%20Course%20Planner/CoursePlanner.png", "caption": "The SBCS Course Planner." },
+        { "src": "/media/7%20-%20SBCS%20Course%20Planner/Taken_Courses_UI_AND_major_dropdown.png", "caption": "Selecting your major and the courses you've taken." },
+        { "src": "/media/7%20-%20SBCS%20Course%20Planner/Radial_Tree_Mode.png", "caption": "Radial tree view of the course map." },
+        { "src": "/media/7%20-%20SBCS%20Course%20Planner/Example_graph.png", "caption": "Prerequisite graph for a course." },
+        { "src": "/media/7%20-%20SBCS%20Course%20Planner/GenEds_or_Stony_Brook_Core_classes%28SBC%27s%29.png", "caption": "Browsing Stony Brook Core (SBC) requirements." },
+        { "src": "/media/7%20-%20SBCS%20Course%20Planner/ChatBot_Trained_on_Professor_Reviews.png", "caption": "Chatbot trained on professor reviews." },
+        { "src": "/media/7%20-%20SBCS%20Course%20Planner/CoursePlannerGroup.jpg", "caption": "The Course Planner team." }
+      ],
       "demo": "https://courses.sbcs.io/",
       "source-code": "https://github.com/eduardoloz/bulletin-website"
     },
@@ -95,8 +103,26 @@
       "author": "Eduardo Lozano",
       "description": "Summer research at UNLV: transfer-learning object detection (YOLO, RT-DETR) for autonomous power-line inspection.",
       "technologies": ["Python", "PyTorch", "YOLO", "RT-DETR"],
-      "image": "/atli_fig_perclass_ap.png",
-      "images": ["/atli_fig_perclass_ap.png", "/atli_fig_map_by_condition.png", "/atli_fig_blur_robustness.png", "/atli_edge_deploy.png"],
+      "image": "/media/9%20-%202026%20Smart%20Cities%20REU/eduardo_with_poster.jpg",
+      "images": [
+        { "src": "/media/9%20-%202026%20Smart%20Cities%20REU/poster_preview.jpg", "pdf": "/media/9%20-%202026%20Smart%20Cities%20REU/UNLV_Eduardo_Lozano_Poster.pdf", "caption": "Research poster — Smart Cities REU, UNLV 2026. Click to zoom / fullscreen." },
+        { "src": "/media/9%20-%202026%20Smart%20Cities%20REU/eduardo_with_poster.jpg", "caption": "Presenting the research poster at UNLV." },
+        { "src": "/media/9%20-%202026%20Smart%20Cities%20REU/Eduardo_with_prof_yang.jpg", "caption": "With Prof. Yang." },
+        { "src": "/media/9%20-%202026%20Smart%20Cities%20REU/atli_fig_blur_robustness.png", "caption": "Robustness to motion blur." },
+        { "src": "/media/9%20-%202026%20Smart%20Cities%20REU/atli_edge_deploy.png", "caption": "Edge deployment on the inspection drone." }
+      ],
+      "document": "/media/9%20-%202026%20Smart%20Cities%20REU/UNLV_Eduardo_Lozano_Poster.pdf",
+      "document-label": "Research Poster (PDF)",
       "source-code": "https://github.com/eduardoloz/atli-inspection"
+    },
+    {
+      "id": 10,
+      "date": "2025-08",
+      "title": "Summer at Amazon",
+      "author": "Eduardo Lozano",
+      "description": "Software Development Engineer Internship in Bellevue, WA. Built a debugger for a legacy system handling 90 TB of CloudWatch logs daily.",
+      "long-description": "SDE intern on a team in Bellevue from May to August 2025. Built a debugger for a legacy system processing 90 TB of CloudWatch logs daily across all packages at Amazon, using programmatic diff visualization to highlight critical upstream issues and source SNS messages. This reduced ticket resolution time from months to days and saved about 15 SDE hours per week (80%). Also leveraged existing MCP configurations with custom tooling to identify source errors by navigating codebases, documentation, and pager alerts with agentic capabilities on AWS.",
+      "technologies": ["AWS", "CloudWatch", "SNS", "MCP", "Java"],
+      "images": []
     }
   ]

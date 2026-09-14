@@ -2,8 +2,12 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import { Worker, Viewer } from '@react-pdf-viewer/core';
 import '@react-pdf-viewer/core/lib/styles/index.css';
-import ImageSlider from '../components/ImageSlider';
+import ImageSlider, { MediaItem } from '../components/ImageSlider';
 import projectsData from '../data/projects.json';
+
+type MediaEntry =
+  | string
+  | { src: string; caption?: string; type?: 'image' | 'video' | 'pdf'; pdf?: string };
 
 interface ProjectData {
   id: number;
@@ -14,12 +18,32 @@ interface ProjectData {
   'long-description'?: string;
   technologies: string[];
   image?: string;
-  images?: string[];
+  images?: MediaEntry[];
+  document?: string;
+  'document-label'?: string;
   demo?: string;
   'source-code'?: string;
 }
 
 const projects = projectsData as ProjectData[];
+
+const VIDEO_EXTENSIONS = ['.mp4', '.webm', '.mov', '.ogg'];
+
+const toMediaItem = (entry: MediaEntry): MediaItem => {
+  const src = typeof entry === 'string' ? entry : entry.src;
+  const caption = typeof entry === 'string' ? undefined : entry.caption;
+  const explicitType = typeof entry === 'string' ? undefined : entry.type;
+  const pdf = typeof entry === 'string' ? undefined : entry.pdf;
+  const lower = src.toLowerCase();
+  const type =
+    explicitType ??
+    (lower.includes('.pdf')
+      ? 'pdf'
+      : VIDEO_EXTENSIONS.some((ext) => lower.includes(ext))
+        ? 'video'
+        : 'image');
+  return { src, type, caption, pdf };
+};
 
 const ProjectDetails: React.FC = () => {
   const { id } = useParams<{ id: string }>();
@@ -30,7 +54,8 @@ const ProjectDetails: React.FC = () => {
   }
 
   const isPDF = project.image?.endsWith('.pdf');
-  const images = project.images ?? (project.image ? [project.image] : []);
+  const mediaEntries: MediaEntry[] = project.images ?? (project.image ? [project.image] : []);
+  const media = mediaEntries.map(toMediaItem);
   const isYouTubeVideo = project.demo?.includes('youtube.com') || false;
   let videoSrc = project.demo || '';
   if (isYouTubeVideo && videoSrc.includes('watch?v=')) {
@@ -63,7 +88,17 @@ const ProjectDetails: React.FC = () => {
             </a>
           </div>
         ) : (
-          <ImageSlider images={images} alt={project.title} />
+          <ImageSlider media={media} alt={project.title} />
+        )}
+        {project.document && (
+          <a
+            href={project.document}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 underline mb-6 block"
+          >
+            [{project['document-label'] || 'Open Document (PDF)'}]
+          </a>
         )}
         <p className="text-lg lg:text-xl mb-6">{project.description}</p>
         {project['long-description'] && (

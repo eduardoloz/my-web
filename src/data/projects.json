@@ -20,6 +20,12 @@
       "long-description": "BrainFudge is a derivative of BrainF***, a minimalist esoteric programming language. Brainfuck is Turing complete! The interpreter is made with Processing, a Java library. The program reads BrainFudge code and interprets it.",
       "technologies": ["Java", "p5", "Processing", "BrainFudge"],
       "image": "/media/2%20-%20BrainFudge/BrainFudge.png",
+      "images": [
+        { "src": "/media/2%20-%20BrainFudge/demo-helloworld.gif", "caption": "Running the classic \"Hello, World!\" program — the memory tape animates and the output box fills in one operation at a time." },
+        { "src": "/media/2%20-%20BrainFudge/shot-1.png", "caption": "Initial state: the Brainfuck source, a zeroed memory tape, and the input/output panels." },
+        { "src": "/media/2%20-%20BrainFudge/shot-2.png", "caption": "Mid-execution: the interpreter fills the tape, with the active cell enlarged to mark the data pointer." },
+        { "src": "/media/2%20-%20BrainFudge/shot-3.png", "caption": "Completed run showing \"Hello, World!\" printed in the output box." }
+      ],
       "demo" : "",
       "source-code": "https://github.com/eduardoloz/BrainFudge"
     },
@@ -31,6 +37,12 @@
       "description": "Dating app for programmers. Tailored for WiCS's Hopper Hacks IX",
       "technologies": ["Node.js", "React", "MongoDB"],
       "image": "/media/3%20-%20HopperDreams/HopperDreams.png",
+      "images": [
+        { "src": "/media/3%20-%20HopperDreams/demo.gif", "caption": "The React app running: the starry landing page, Get Started, and filling out the sign-up form." },
+        { "src": "/media/3%20-%20HopperDreams/shot-1.png", "caption": "Home screen with glowing animated Get Started / Login buttons." },
+        { "src": "/media/3%20-%20HopperDreams/shot-2.png", "caption": "Registration page with the sleepy-astronaut mascot and sign-up form." },
+        { "src": "/media/3%20-%20HopperDreams/shot-3.png", "caption": "Profile-settings page with the pastel sleepy-frog illustration." }
+      ],
       "demo" : "https://www.youtube.com/embed/qDs3GwgmTa0?si=X3vqHRyMdJ7xxD-H",
       "source-code": "https://github.com/eduardoloz/hopperhacks2024"
     },
@@ -46,16 +58,6 @@
       "source-code" : "https://github.com/eduardoloz/sbuhacks2024"
     },
     {
-      "id": 5,
-      "date": "2024-08",
-      "title": "2024 CMU REUSE poster",
-      "author": "2024 SBU Hacks Group",
-      "description": "My poster from my work over the summer in Pittsburgh",
-      "technologies": ["Java", "TLA+", "Python"],
-      "image": "/media/5%20-%202024%20CMU%20REUSE%20poster/ReusePoster.pdf",
-      "source-code": "https://github.com/cmu-soda/recomp-verify/tree/threading"
-    }
-    ,{
       "id": 6,
       "date": "2024-10",
       "title": "Parkara",
@@ -94,35 +96,13 @@
       "author": "Eduardo Lozano",
       "description": "LLM agents that play Minecraft, built on the Odyssey framework for Hopper Hacks 2026.",
       "technologies": ["Python", "JavaScript", "LLM Agents", "Minecraft"],
-      "source-code": "https://github.com/eduardoloz/minecraft-agents"
-    },
-    {
-      "id": 9,
-      "date": "2026",
-      "title": "2026 Smart Cities REU",
-      "author": "Eduardo Lozano",
-      "description": "Summer research at UNLV: transfer-learning object detection (YOLO, RT-DETR) for autonomous power-line inspection.",
-      "technologies": ["Python", "PyTorch", "YOLO", "RT-DETR"],
-      "image": "/media/9%20-%202026%20Smart%20Cities%20REU/eduardo_with_poster.jpg",
+      "image": "/media/8%20-%20Agentic%20AI%20Minecraft/shot-1.png",
       "images": [
-        { "src": "/media/9%20-%202026%20Smart%20Cities%20REU/poster_preview.jpg", "pdf": "/media/9%20-%202026%20Smart%20Cities%20REU/UNLV_Eduardo_Lozano_Poster.pdf", "caption": "Research poster — Smart Cities REU, UNLV 2026. Click to zoom / fullscreen." },
-        { "src": "/media/9%20-%202026%20Smart%20Cities%20REU/eduardo_with_poster.jpg", "caption": "Presenting the research poster at UNLV." },
-        { "src": "/media/9%20-%202026%20Smart%20Cities%20REU/Eduardo_with_prof_yang.jpg", "caption": "With Prof. Yang." },
-        { "src": "/media/9%20-%202026%20Smart%20Cities%20REU/atli_fig_blur_robustness.png", "caption": "Robustness to motion blur." },
-        { "src": "/media/9%20-%202026%20Smart%20Cities%20REU/atli_edge_deploy.png", "caption": "Edge deployment on the inspection drone." }
+        { "src": "/media/8%20-%20Agentic%20AI%20Minecraft/demo.mp4", "caption": "Walkthrough of the live monitoring dashboard: selecting bots, sending an instruction, and inspecting an agent's LLM conversation (shown with representative data)." },
+        { "src": "/media/8%20-%20Agentic%20AI%20Minecraft/shot-1.png", "caption": "Real-time bot roster with per-bot status, current goals, and select/stop/kill controls." },
+        { "src": "/media/8%20-%20Agentic%20AI%20Minecraft/shot-2.png", "caption": "LLM Conversations panel: every action-agent turn for a task, with the server-activity log." },
+        { "src": "/media/8%20-%20Agentic%20AI%20Minecraft/shot-3.png", "caption": "Instruction console for dispatching tasks, subgoals, exploration, or raw skills to a bot." }
       ],
-      "document": "/media/9%20-%202026%20Smart%20Cities%20REU/UNLV_Eduardo_Lozano_Poster.pdf",
-      "document-label": "Research Poster (PDF)",
-      "source-code": "https://github.com/eduardoloz/atli-inspection"
-    },
-    {
-      "id": 10,
-      "date": "2025-08",
-      "title": "Summer at Amazon",
-      "author": "Eduardo Lozano",
-      "description": "Software Development Engineer Internship in Bellevue, WA. Built a debugger for a legacy system handling 90 TB of CloudWatch logs daily.",
-      "long-description": "SDE intern on a team in Bellevue from May to August 2025. Built a debugger for a legacy system processing 90 TB of CloudWatch logs daily across all packages at Amazon, using programmatic diff visualization to highlight critical upstream issues and source SNS messages. This reduced ticket resolution time from months to days and saved about 15 SDE hours per week (80%). Also leveraged existing MCP configurations with custom tooling to identify source errors by navigating codebases, documentation, and pager alerts with agentic capabilities on AWS.",
-      "technologies": ["AWS", "CloudWatch", "SNS", "MCP", "Java"],
-      "images": []
+      "source-code": "https://github.com/eduardoloz/minecraft-agents"
     }
   ]

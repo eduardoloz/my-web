@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Smart Cities REU",
+    "role": "Undergraduate Researcher (REU)",
+    "organization": "University of Nevada, Las Vegas",
+    "location": "Las Vegas, NV",
+    "start": "2026-05",
+    "end": "2026-08",
+    "description": "Summer research at UNLV: transfer-learning object detection (YOLO, RT-DETR) for autonomous power-line inspection.",
+    "technologies": ["Python", "PyTorch", "YOLO", "RT-DETR"],
+    "image": "/media/9%20-%202026%20Smart%20Cities%20REU/eduardo_with_poster.jpg",
+    "images": [
+      { "src": "/media/9%20-%202026%20Smart%20Cities%20REU/poster_preview.jpg", "pdf": "/media/9%20-%202026%20Smart%20Cities%20REU/UNLV_Eduardo_Lozano_Poster.pdf", "caption": "Research poster — Smart Cities REU, UNLV 2026. Click to zoom / fullscreen." },
+      { "src": "/media/9%20-%202026%20Smart%20Cities%20REU/eduardo_with_poster.jpg", "caption": "Presenting the research poster at UNLV." },
+      { "src": "/media/9%20-%202026%20Smart%20Cities%20REU/Eduardo_with_prof_yang.jpg", "caption": "With Prof. Yang." },
+      { "src": "/media/9%20-%202026%20Smart%20Cities%20REU/atli_fig_blur_robustness.png", "caption": "Robustness to motion blur." },
+      { "src": "/media/9%20-%202026%20Smart%20Cities%20REU/atli_edge_deploy.png", "caption": "Edge deployment on the inspection drone." }
+    ],
+    "document": "/media/9%20-%202026%20Smart%20Cities%20REU/UNLV_Eduardo_Lozano_Poster.pdf",
+    "document-label": "Research Poster (PDF)",
+    "source-code": "https://github.com/eduardoloz/atli-inspection"
+  },
+  {
+    "id": 2,
+    "title": "Summer at Amazon",
+    "role": "Software Development Engineer Intern",
+    "organization": "Amazon",
+    "location": "Bellevue, WA",
+    "start": "2025-05",
+    "end": "2025-08",
+    "description": "Software Development Engineer Internship in Bellevue, WA. Built a debugger for a legacy system handling 90 TB of CloudWatch logs daily.",
+    "long-description": "SDE intern on a team in Bellevue from May to August 2025. Built a debugger for a legacy system processing 90 TB of CloudWatch logs daily across all packages at Amazon, using programmatic diff visualization to highlight critical upstream issues and source SNS messages. This reduced ticket resolution time from months to days and saved about 15 SDE hours per week (80%). Also leveraged existing MCP configurations with custom tooling to identify source errors by navigating codebases, documentation, and pager alerts with agentic capabilities on AWS.",
+    "technologies": ["AWS", "CloudWatch", "SNS", "MCP", "Java"],
+    "images": []
+  },
+  {
+    "id": 3,
+    "title": "CMU REUSE",
+    "role": "Research Intern (REUSE)",
+    "organization": "Carnegie Mellon University",
+    "location": "Pittsburgh, PA",
+    "start": "2024-05",
+    "end": "2024-08",
+    "description": "Robust-systems research over the summer in Pittsburgh: parallelizing model checking for recomp-verify.",
+    "long-description": "Joined CMU's REUSE program to work on robust systems programming alongside Ian Dardik, parallelizing compositional model checking (recomp-verify). Originally targeted a Java/TLA+ approach and ultimately reimplemented the parallelization in Python.",
+    "technologies": ["Java", "TLA+", "Python"],
+    "image": "/media/5%20-%202024%20CMU%20REUSE%20poster/reuse_preview.jpg",
+    "images": [
+      { "src": "/media/5%20-%202024%20CMU%20REUSE%20poster/reuse_preview.jpg", "pdf": "/media/5%20-%202024%20CMU%20REUSE%20poster/ReusePoster.pdf", "caption": "REUSE research poster — CMU, 2024. Click to zoom / fullscreen." }
+    ],
+    "document": "/media/5%20-%202024%20CMU%20REUSE%20poster/ReusePoster.pdf",
+    "document-label": "Research Poster (PDF)",
+    "source-code": "https://github.com/cmu-soda/recomp-verify/tree/threading"
+  }
+]

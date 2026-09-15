@@ -13,11 +13,14 @@ const Nav = () => {
             <a href="/Home" className="text-xl text-sky-950 hover:text-sky-700 ml-2">
               Home
             </a>
-            <a href="/blog" className="text-xl text-sky-950 hover:text-sky-700">
-              Blog
+            <a href="/Experiences" className="text-xl text-sky-950 hover:text-sky-700">
+              Experiences
             </a>
             <a href="/Projects" className="text-xl text-sky-950 hover:text-sky-700">
               Projects
+            </a>
+            <a href="/blog" className="text-xl text-sky-950 hover:text-sky-700">
+              Blog
             </a>
             <a href="/About" className="text-xl text-sky-950 hover:text-sky-700">
               About
@@ -78,11 +81,14 @@ const Nav = () => {
         <a href="/Home" className="block py-2 px-4 text-lg hover:bg-gray-200">
           Home
         </a>
-        <a href="/blog" className="block py-2 px-4 text-lg hover:bg-gray-200">
-          Blog
+        <a href="/Experiences" className="block py-2 px-4 text-lg hover:bg-gray-200">
+          Experiences
         </a>
         <a href="/Projects" className="block py-2 px-4 text-lg hover:bg-gray-200">
           Projects
+        </a>
+        <a href="/blog" className="block py-2 px-4 text-lg hover:bg-gray-200">
+          Blog
         </a>
         <a href="/About" className="block py-2 px-4 text-lg hover:bg-gray-200">
           About

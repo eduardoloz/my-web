@@ -4,8 +4,11 @@ import Nav from "./components/Nav"; // Ensure the import path is correct
 import Home from "./pages/Home"; // Ensure the import path is correct
 import ProjectPage from "./pages/ProjectPage"; // Ensure the import path is correct
 import ProjectDetails from "./pages/ProjectDetails"; // Ensure the import path is correct
+import ExperiencePage from "./pages/ExperiencePage"; // Ensure the import path is correct
+import ExperienceDetails from "./pages/ExperienceDetails"; // Ensure the import path is correct
 import About from "./pages/About"; // Ensure the import path is correct
 import Blog from "./pages/Blog"; // Ensure the import path is correct
+import BlogPost from "./pages/BlogPost"; // Ensure the import path is correct
 
 import "./App.css";
 
@@ -18,10 +21,12 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/projects" element={<ProjectPage />} />
         <Route path="/project/:id" element={<ProjectDetails />} />
+        <Route path="/experiences" element={<ExperiencePage />} />
+        <Route path="/experience/:id" element={<ExperienceDetails />} />
         <Route path="/education" element={<Home />} />
-        <Route path="/experience" element={<Home />} />
         <Route path="/About" element={<About />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/:id" element={<BlogPost />} />
       </Routes>
     </BrowserRouter>
   );

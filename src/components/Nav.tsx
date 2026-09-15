@@ -5,7 +5,7 @@ const Nav = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-sky-100 shadow-lg fixed w-full z-10">
+    <nav className="bg-sky-100 shadow-lg fixed w-full z-40">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between items-center py-6">
           {/* Desktop Navigation */}
@@ -77,7 +77,7 @@ const Nav = () => {
       </div>
 
       {/* Mobile Navigation */}
-      <div className={`md:hidden ${menuOpen ? "block" : "hidden"}`}>
+      <div className={`md:hidden bg-sky-100 shadow-lg ${menuOpen ? "block" : "hidden"}`}>
         <a href="/Home" className="block py-2 px-4 text-lg hover:bg-gray-200">
           Home
         </a>
